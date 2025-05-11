@@ -1,0 +1,21 @@
+body {
+  background-color: #f8f9fa;
+}
+#project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+.project-card {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.task-list {
+  margin-top: 10px;
+}
+.comment-box {
+  font-size: 14px;
+  margin-top: 5px;
+}
